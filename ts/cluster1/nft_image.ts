@@ -20,9 +20,9 @@ umi.use(signerIdentity(signer));
 (async () => {
   try {
     //1. Load image
-    const image = await readFile("./monke.png");
+    const image = await readFile("./cluster1/nft.png");
     //2. Convert image to generic file.
-    const genericFile = createGenericFile(image, "rug.png", {
+    const genericFile = createGenericFile(image, "rugday.png", {
       contentType: "image/png",
     });
     //3. Upload image

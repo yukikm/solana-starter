@@ -22,13 +22,15 @@ umi.use(signerIdentity(signer));
     // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
     const image =
-      "https://devnet.irys.xyz/B3QsqvRgmemVQXDwVaanMBmJM2UDBstfWvbbghhkJNMK";
+      "https://devnet.irys.xyz/GMmQxoP6GrHvmBxDqQKp8qpm6oZnyAevRpKMjj9g1Bx4";
+    // "https://devnet.irys.xyz/7STTSxT5qQkvnd3wrrY97Dyj7WsKxDZtxYaJJKNtf2b1";
+    // "https://devnet.irys.xyz/B3QsqvRgmemVQXDwVaanMBmJM2UDBstfWvbbghhkJNMK";
     const metadata = {
-      name: "0xyuki3",
-      symbol: "YUKI",
-      description: "this is a test NFT",
+      name: "Japan Rug",
+      symbol: "JR",
+      description: "Just a rug day in turbin3",
       image: image,
-      attributes: [{ trait_type: "colors", value: "20" }],
+      attributes: [{ trait_type: "type", value: "legendary" }],
       properties: {
         files: [
           {

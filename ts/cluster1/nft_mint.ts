@@ -26,9 +26,9 @@ const mint = generateSigner(umi);
 (async () => {
   let tx = createNft(umi, {
     mint,
-    name: "0xyuki3",
-    symbol: "YUKI",
-    uri: "https://gateway.irys.xyz/6XgHw96usLyz6dtnLPWHpLsWTkSM1SAmZPDmjvMoRr1f",
+    name: "Japan Rug",
+    symbol: "JR",
+    uri: "https://devnet.irys.xyz/AKMaCxSK1aUTPqqa9rAeGygGvNfNwvo1WanRNGWqYGyM",
     sellerFeeBasisPoints: percentAmount(5),
   });
   let result = await tx.sendAndConfirm(umi);
